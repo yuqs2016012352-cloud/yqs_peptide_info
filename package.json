@@ -1,0 +1,14 @@
+{
+  "name": "yqs-peptide-info",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Static site, Netlify handles Functions and Database migrations.'"
+  },
+  "dependencies": {
+    "@netlify/database": "latest",
+    "@netlify/functions": "latest"
+  }
+}
